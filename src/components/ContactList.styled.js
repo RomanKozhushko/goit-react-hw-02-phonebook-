@@ -5,7 +5,7 @@ margin: 10px;
 padding: 10px;
 width: 380px;
 background-color: pink;
-border: 2px solid black;
+border: 3px solid white;
 border-radius: 15px;
 `
 export const ListItem = styled.li`
@@ -20,7 +20,7 @@ export const NumByOrder = styled.span`
 margin-right: 10px;
 padding: 0 5px;
 width: 10px;
-border: 2px solid black;
+border: 3px solid white;
 border-radius: 15px;
 background-color: grey;
 `
