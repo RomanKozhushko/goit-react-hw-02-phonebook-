@@ -9,12 +9,13 @@ border: 3px solid white;
 border-radius: 15px;
 `
 export const ListItem = styled.li`
+
 display: flex;
 list-style: none;
 margin: 5px;
 max-width: 380px;
 background-color: white;
-border-radius: 2px;
+border-radius: 15px;
 `
 export const NumByOrder = styled.span`
 margin-right: 10px;
@@ -30,6 +31,7 @@ color: purple;
 font-weight: 700;
 `
 export const DelBtn = styled.button`
+border-radius: 15px;
 margin-left: auto;
-background-color: gray; 
+background-color: powderblue; 
 `
