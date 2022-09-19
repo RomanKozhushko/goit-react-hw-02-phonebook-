@@ -18,6 +18,7 @@ export class App extends Component {
     ],
     filter: ''
   }
+  
   submitHandle = (data) => {
 
     // Перевірка на дупдікат імені контакту
