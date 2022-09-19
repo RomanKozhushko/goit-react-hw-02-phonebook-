@@ -19,10 +19,8 @@ export class App extends Component {
     filter: ''
   }
   submitHandle = (data) => {
-    // evt.preventDefault();
-    // if (!data.name || !data.number) return; // проверка на ввод всех полей
-    
-    // Проверка на дубликат имени в книге
+
+    // Перевірка на дупдікат імені контакту
     const equalName = this.state.contacts.find(el => (el.name.toLowerCase() === data.name.toLowerCase()));
     if (equalName) return alert(equalName.name + " is already in contacts");
     
